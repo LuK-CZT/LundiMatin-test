@@ -1,5 +1,7 @@
 # Lancement de l'application
 
+Faites ```cd ./LundiMatin```
+
 ## API
 
 Allez dans le dossier ./API et faites la commande ```php -S localhost:8000```
