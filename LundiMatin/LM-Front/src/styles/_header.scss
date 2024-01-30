@@ -1,0 +1,11 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 1rem 10rem ;
+    background-color: $blue-primary;
+
+    &__text {
+        cursor: pointer;
+    }
+}

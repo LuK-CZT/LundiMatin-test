@@ -1,0 +1,42 @@
+.person{
+    padding: 1rem 1rem ;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    border-bottom: solid 1px rgb(207, 205, 205);
+    border-left: solid 1px rgb(207, 205, 205);
+    border-right: solid 1px rgb(207, 205, 205);
+
+    &__info {
+        width: 27%;
+        text-align: center;
+    }
+
+    &__name {
+        align-items: center;
+    }
+
+    &__icon {
+        color: white;
+        padding: 1rem;
+        background: rgb(200, 198, 198);
+        border-radius: 50%;
+        font-weight: 700;
+        margin-right: 1.3rem;
+    }
+
+    &__cta {
+        img{
+            margin-right: .4rem;
+        }
+        display: flex;
+        align-items: center;
+        padding: .5rem .7rem;
+        background-color: $blue-primary;
+        color: white;
+        border-radius: 99999px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
